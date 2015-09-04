@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="style.css"  type="text/css" />
+	<link href="script.js" type="scripts/script.js"/>
+	<link href="script.js" type="scripts/weatherService.js"/>
+	<title>прогноз погоди</title>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="header line">
+				<div class="wrapper">
+					<div class="logo"><a href="index.html">Weather Forecast</a></div>
+					<div class="menu">
+						<nav>
+							<ul>
+								<li><a href="index.html">Головна</a></li>
+								<li><a href="forecast_week.html">Прогноз на 7 днів</a></li>
+								<li><a href="register.html">Контакти</a></li>		
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="content line">
+				<div class="wrapper">
+					<div id="weather_banner">
+						<p id="city"><span id="location" ></p>
+						<p id="icon"><span id="tempIcon" ></p>
+						<p id="temperature"><span id="temp" ></p>
+						<div class="day_time">
+							<p>ніч</p>
+							<p>ранок</p>
+							<p>день</p>
+							<p>вечір</p>
+						</div>	
+						<div class="time">
+							<p>0:00</p>
+							<p>06:00</p>
+							<p>12:00</p>
+							<p>18:00</p>
+						</div>	
+						<div class="daytemp">
+							<p id="nighttemp"></p>
+							<p id="morntemp"></p>
+							<p id="daytemp"></p>
+							<p id="evetemp"></p>
+						</div>
+					</div>
+					<div id="container">
+							<section  id="calendar" >
+								<p id="day"></p>
+								<p id="date"></p>
+								<p id="month"></p>
+							</section>
+					</div>		
+					<div class="atmospheric_data">
+						<div class="air">
+							<div class="pressure">
+								<p>Тиск, мм</p>
+								<p id="pressure"></p>	
+							</div>
+							<div class="humidity">
+								<p>Вологість,%</p>
+								<p id="humidity"></p>	
+							</div>
+							<div class="wind">
+								<p>Вітер, м/сек</p>
+								<p id="wind"></p>	
+							</div>
+						</div>
+						<div class="condition">
+								<p>Стан:</p>
+								<p id="description"></p>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="footer line">
+				<div class="wrapper">
+					<span>Weather forecast create by Viktoria @2015.</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<p id="error"></p>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+    <script src="scripts/weatherService.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

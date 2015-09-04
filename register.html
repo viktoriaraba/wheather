@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="style.css"  type="text/css" />
+	<title>контакти</title>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="header line">
+				<div class="wrapper">
+					<div class="logo"><a href="index.html">Weather Forecast</a></div>
+					<div class="menu">
+						<nav>
+							<ul>
+								<li><a href="index.html">Головна</a></li>
+								<li><a href="forecast_week.html">Прогноз на 7 днів</a></li>
+								<li><a href="register.html">Контакти</a></li>		
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="content line">
+				<div class="wrapper">
+					<div class="register">
+						<form name="contact form" action="handler.php" method="post ">
+							<p><h2>CONTACT US</h2></p>
+								<p><h3>Тут Ви можете відправити нам повідомлення</h3></p>
+								<p>Ваше ім'я:</p>
+									<p><input type="text" name="name" size="25"  pattern="[A-Za-z]{6}"></p><br/>
+								<p>Ваш e-mail:</p>
+										<p><input type="password" name="password" size="25"></p><br/>
+								<p><h3>Оберіть тему листа та напишіть повідомлення</h3></p>
+								<p> 
+									<select>
+										<option value=>Тема листа</option>
+										<option value="Знайшов помилку">Знайшов помилку!</option>
+										<option value="Пропоную">Пропоную...</option>
+										<option value="Бажаю">Бажаю...</option>
+										<option value="Потрібна допомога">Потрібна допомога...</option>
+									</select>
+								</p>
+								<p>Повідомлення</p>
+									<p><textarea name="comment" id="comment" cols="48" rows="8"> </textarea></p>
+								<p><input type="submit" name="submit" value="Відправити">
+									<input type="reset" name="reset" value="Очистити"></p>	
+						</form>
+						<div class="contact_date">
+							<p><h2>EMAIL</h2></p>
+								<p>WeatherForecast@.com</p>
+							<p><h2>Telephone</h2></p>
+								<p>8-800-80-80</p>
+							<p><h2>SKYPE</h2></p>
+								<p>WeatherForecast@.com</p>
+							<p><h2>ADRESS</h2></p>
+								<p>Lviv, Petluru street, 37</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>			
+		<footer>
+			<div class="footer line">
+				<div class="wrapper">
+					<span>Weather forecast create by Viktoria @2015.</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

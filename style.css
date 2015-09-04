@@ -1,0 +1,78 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,inpbt,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}fieldset,img,abbr{border:0;}address,caption,cite,code,dfn,em,strong,
+th,var{font-style:normal;font-weight:normal;}ul,li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+legend{color:#000;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+
+
+:-ms-input-placeholder{color:#757575;}
+:-webkit-input-placeholder{color:#757575;}
+
+html,body{height:100%;font-family:OpenSans-Regular,Arial;font-size:15px;color:#000;}
+a{text-decoration:none;outline:none;}
+a img{border:none;outline:none;}
+ul{list-style:none;}
+p{margin:0 0 14px;}
+
+.line{width:100%;}
+.wrapper{max-width:960px;margin:0 auto; height:100%; padding:0 25px; overflow:hidden;
+		position:relative;}
+
+.header{min-height:40px; background:#244055;}
+
+.content{min-height:780px; background:url(images/bg.jpg) center no-repeat;}
+.footer{height:50px;background:#244055;}
+
+header .logo {margin-top:10px;}
+header .logo a{color:white; font-size:30px; margin-top:2px; float:left;}
+header .menu{ margin-left:400px;}
+header nav a{color:#fff; font-size: 16px;}
+header nav ul li{display:inline-block; margin-left:40px; height:50px; line-height:40px;}
+header nav ul li a:hover{color:#eb7c8c;}
+
+.content .wrapper{min-height:780px;}
+#weather_banner{width:500px; min-height:300px; background:#9dbaca; opacity:0.9; margin-top:110px; float:left;}
+#city{margin-left:20px; margin-top:20px; float:left;font-family: Geneva, Arial, Helvetica, sans-serif; font-size:40px;}
+#icon{ margin-left:20px;margin-top:20px; float:left;}
+#temperature{margin-left:20px;margin-top:20px;font-size:30px; float:left;}
+.content .day_time{ height:45px; margin-top:165px; background:#9bad9b;}
+.content .day_time p{display:inline; margin:0 38px; line-height:40px; font-size:18px;}
+.content .time{ height:45px; }
+.content .time p{display:inline; margin:0 36px; line-height:40px;font-size:18px;}
+.content .daytemp{ height:45px; background:#9199a3; }
+.content .daytemp p {display:inline; margin:0 37px; line-height:40px;font-size:18px;}
+#container{width:410px; height:300px; margin-top:110px; margin-left:500px;  background:#ccb1b6; opacity:0.9;    }
+#calendar{width:410px; height:300px;}
+#day {font-family: ThinHelvetica; color: #ffffff; font-size: 30px; text-align: center; height:50px; }
+#date {color: #227e9c; font-size: 60px; text-align: center; height:100px; }
+#month { font-family: HelveticaCyr300; color: #1f7998; font-size: 48px; text-align: center;}
+
+.content .atmospheric_data{width:910px; min-height:150px; background:#4d646d; opacity:0.9; }
+.content .air{width:400px; min-height:150px; float:left;}
+.pressure{height:45px;  }
+.pressure p{display:inline;  margin-left:28px; margin-right:50px; line-height:40px; color:#fff;font-size:18px;}
+.humidity{height:45px;  }
+.humidity p{display:inline; margin:0 25px; line-height:40px; color:#fff;font-size:18px;}
+.wind{height:45px;  }
+.wind p{display:inline; margin:0 30px; line-height:40px; color:#fff;font-size:18px;}
+.content .condition{width:400px; min-height:150px; margin-left:500px;}
+.content .condition p{ margin:0 45px; line-height:40px; color:#fff;font-size:18px;}
+
+.content .week{width:910px; height:350px;margin-top:110px; }
+.content .window{width:120px; height:340px;  background:#244055; opacity:0.9; padding-top:15px; margin-left:8px; float:left;}
+.content .window p{color:#fff; text-align:center; font-size:18px;}
+.content .window p h2{color:#fff; text-align:center; font-size:30px;}
+.content .window:hover{ background:#4d646d;}
+
+.content .wrapper .register{ min-width:800px; background:#9dbaca; opacity:0.9;margin-top:150px; margin:20px 10px; height:100%; padding:10px 40px; overflow:hidden;
+		position:relative;}
+
+.content .register form{min-width:600px; float:left; }
+.content  form h2{color:#404242; font-size:24px; }	
+.content  form h3{color:#404242; font-size:16px;}	
+.content  form p{color:#081422;}	
+
+.content .register .contact_date{ margin-top:40px; padding-top:10px;   margin-right:20px; padding-left:10px; }	
+.content .register .contact_date h2{color:#eb7c8c; font-size:18px;}
+
+footer span{color:#fff; line-height:50px;}

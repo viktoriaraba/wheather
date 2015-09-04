@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="style.css"  type="text/css" />
+	<link href="script.js" type="scripts/forecast_week.js"/>
+	<link href="script.js" type="scripts/weatherService.js"/>
+	<title>прогноз на тиждень</title>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="header line">
+				<div class="wrapper">
+					<div class="logo"><a href="index.html">Weather Forecast</a></div>
+					<div class="menu">
+						<nav>
+							<ul>
+								<li><a href="index.html">Головна</a></li>
+								<li><a href="forecast_week.html">Прогноз на 7 днів</a></li>
+								<li><a href="register.html">Контакти</a></li>		
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="content line">
+				<div class="wrapper">
+					<div class="week">
+						<div class="window">
+							<p id="day1"><h2></h2></p>
+							<p id="date1"></p>
+							<p id="icon1"></p>
+							<p id="temperature1"></p>
+							<p id="condition1"></p>
+						</div>
+						<div class="window">
+							<p id="day2"><h2></h2></p>
+							<p id="date2"></p>
+							<p id="icon2"></p>	
+							<p id="temperature2"></p>
+							<p id="condition2"></p>
+						</div>
+						<div class="window">
+							<p id="day3"><h2></h2></p>
+							<p id="date3"></p>
+							<p id="icon3"></p>
+							<p id="temperature3"></p>
+							<p id="condition3"></p>
+						</div>
+						<div class="window">
+							<p id="day4"><h2></h2></p>
+							<p id="date4"></p>
+							<p id="icon4"></p>
+							<p id="temperature4"></p>
+							<p id="condition4"></p>
+						</div>
+						<div class="window">
+							<p id="day5" ><h2></h2></p>
+							<p id="date5"></p>
+							<p id="icon5"></p>
+							<p id="temperature5"></p>
+							<p id="condition5"></p>
+						</div>
+						<div class="window">
+							<p id="day6" ><h2></h2></p>
+							<p id="date6"></p>
+							<p id="icon6"></p>
+							<p id="temperature6"></p>
+							<p id="condition6"></p>
+						</div>
+						<div class="window">
+							<p id="day7"><h2></h2></p>
+							<p id="date7"></p>
+							<p id="icon7"></p>
+							<p id="temperature7"></p>
+							<p id="condition7"></p>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		</section>
+		<footer>
+			<div class="footer line">
+				<div class="wrapper">
+					<span>Weather forecast create by Viktoria @2015.</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+    <script src="scripts/weatherService.js"></script>
+    <script src="scripts/forecast_week.js"></script>
+</body>
+</html>
